@@ -1,0 +1,177 @@
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--color-primary-darker);
+    color: var(--color-title-in-primary);
+}
+
+header #logo-container {
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header #logo-container #logos {
+    display: flex;
+    justify-content: center;
+}
+
+header #logo-container #logos img:last-child  {
+    margin-left: 1.6rem;
+}
+
+header nav {
+    background-color: var(--color-primary);
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style: none;
+}
+
+header li {
+    padding: 0 2rem;
+
+    transition: background .2s;
+}
+
+header li:hover {
+    background-color: var(--color-primary-dark);
+}
+
+header a {
+    display: block;
+    padding: 1.4rem;
+    color: var(--color-title-in-primary);
+    text-decoration: none;
+}
+
+nav label,
+#toggle {
+    display: none;
+}
+
+nav label {
+    font-size: 3rem;
+}
+
+
+main {
+    width: 90%;
+
+    margin: 0 auto;
+}
+
+.text-container {
+    margin: 1.6rem 0;
+    padding: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid var(--color-line-in-white);
+    border-radius: 0.6rem;
+
+    background-color: var(--color-box-footer);
+}
+
+.text-container:nth-child(1){
+    margin-top: 5rem;
+}
+
+.text-container h3,
+.text-container h4 {
+    color: var(--color-text-title);
+}
+
+.text-container p {
+    color: var(--color-text-base);
+}
+
+.text-container .aside-buttons {
+    margin: 2rem auto 0;
+    padding: 1rem 3rem;
+
+    font: 600 1.6rem Poppins;
+    text-decoration: none;
+
+    border-radius: 0.4rem;
+    color: var(--color-button-text);
+    background-color: var(--color-secondary);
+
+    transition: background .2s;
+}
+
+.text-container .aside-buttons:hover {
+    background-color: var(--color-secondary-dark);
+}
+
+aside h3 {
+    margin-top: 5rem;
+    color: var(--color-primary-darker);
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    header #logo-container #logos img {
+        width: 30px;
+    }
+
+    nav label {
+        width: 2rem;
+        margin: 0 auto;
+
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+
+        display: none;
+    }
+
+    .menu li a{
+        display: block;
+        border-bottom: 1px solid var(--color-primary-lighter);
+    }
+
+    #toggle:checked + .menu{
+        display: block;
+    }
+}
+
+@media (min-width: 1100px) {
+    header #logo-container {
+        flex-direction: row;
+    }
+
+    header #logo-container #logos img:first-child {
+        margin-left: 2rem;
+    }
+
+    main { 
+        display: flex;
+    }
+
+    main div {
+        width: 75%;
+    }
+    
+    main aside {
+        width: 25%;
+
+        margin-left: 2rem;
+    }
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: 2px solid mediumturquoise;
+    outline-offset: 10px
+}
+
+html {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+}
+
+header {
+    color: white;
+    background-color: #0f4c75;
+}
+
+header div,
+main,
+nav ul {
+    padding: 25px 50px;
+}
+
+header div > * {
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #3282b8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a,
+nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #0f4c75;
+}
+
+main > div {
+    max-width: 550px;
+}
+
+main > div section,
+main aside section {
+    background-color:  #f9ffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+main aside {
+    max-width: 200px;
+}
+
+main aside,
+main > div {
+    text-indent: 20px;
+    line-height: 32px;
+    white-space: normal;
+    text-transform: none;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+}
+
+main aside h3 {
+    margin-top: 20px
+}
