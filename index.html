@@ -11,13 +11,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
         <!-- Estilos -->
-        <link rel="shortcut icon" href="/img/workshop.png">
+        <link rel="shortcut icon" href="/img/html.svg">
         <link rel="stylesheet" href="/styles/main.css">
         <link rel="stylesheet" href="/styles/partials-styles/page-home.css">
 
     </head>
 
     <body id="page-home">
+        
+        <a id="arrow-up" href="#logo-container">
+            <img src="img/arrow-up.svg" alt="Seta para o topo do site">
+        </a>
+
         <header>
 
             <div id="logo-container">
@@ -42,9 +47,9 @@
 
                 <ul class="menu">
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Portfólio</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -52,8 +57,8 @@
 
         <main>
             <div>
-                <section class="text-container">
-                    <h3>Titulo 1</h3>
+                <section id="sobre" class="text-container">
+                    <h3>Sobre</h3>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore porro facere repellat nisi! Eius
                         consectetur eos placeat, ipsa fugiat ea non exercitationem inventore quidem qui quae quasi veniam ipsum
@@ -73,8 +78,8 @@
                     </p>
                 </section>
 
-                <section class="text-container">
-                    <h3>Titulo 2</h3>
+                <section id="portfolio" class="text-container">
+                    <h3>Portfólio</h3>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore porro facere repellat nisi! Eius
                         consectetur eos placeat, ipsa fugiat ea non exercitationem inventore quidem qui quae quasi veniam ipsum
@@ -100,30 +105,50 @@
                 <h3>Outras Postagens</h3>
 
                 <section class="text-container">
-                    <h4>Titulo 3</h4>
+                    <h4>Aprenda HTML5</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, in modi? Quisquam neque consequuntur
                         mollitia molestias tempore incidunt minima fugiat porro! Nesciunt facilis nostrum iusto odio obcaecati
                         incidunt eius asperiores?
                     </p>
-                    <a class="aside-buttons" href="#">Ler Mais</a>
+                    <a class="aside-buttons" href="https://www.w3schools.com/html/default.asp" target="_blank">Ler Mais</a>
                 </section>
 
                 <section class="text-container">
-                    <h4>Titulo 4</h4>
+                    <h4>Aprenda CSS3</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, in modi? Quisquam neque consequuntur
                         mollitia molestias tempore incidunt minima fugiat porro! Nesciunt facilis nostrum iusto odio obcaecati
                         incidunt eius asperiores?
                     </p>
-                    <a class="aside-buttons" href="#">Ler Mais</a>
+                    <a class="aside-buttons" href="https://www.w3schools.com/css/default.asp" target="_blank">Ler Mais</a>
                 </section>
 
             </aside>
         </main>
 
         <footer>
+            <div class="container-footer">
+                <nav>
+                    <ul class="menu">
+                        <h3>Navegação</h2>
+                            <li><a href="#logo-container">Início</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            
+                <div id="contato">
+                    <h3>Contato</h3>
+                    <a href="mailto:e@mail.com.br">e@mail.com.br</a>
+                    <a href="tel:+55000000000">(87) 9 9999-9999</a>
+                </div>
+            </div>
 
+            <div class="copyright">
+                <p>© Copyright - Daniel Ferreira</p>
+            </div>
         </footer>
 
     </body>

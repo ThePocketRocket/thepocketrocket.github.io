@@ -28,6 +28,7 @@
 }
 
 body {
+    height: 100%;
     font: 500 1.6rem Poppins;
     background-color: var(--color-background);
 }
@@ -35,5 +36,6 @@ body {
 h2,
 h3,
 h4 {
-    font: 600 2rem Poppins; 
+    font: 600 2rem Poppins;
+    margin-bottom: 1rem;
 }
