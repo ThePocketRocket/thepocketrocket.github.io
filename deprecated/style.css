@@ -19,6 +19,28 @@ header {
     background-color: #0f4c75;
 }
 
+header nav div {
+    position: absolute;
+    right: 20;
+}
+
+header nav ul a:nth-child(5) {
+    position: fixed;
+    right: 20px;
+    padding: 1rem;
+    
+    font-weight: bold;
+    background-color: #04D361;
+
+    transition: .2s;
+}
+
+header nav ul a:nth-child(5):hover {
+    background-color: #04BF58;
+    border-radius: .4rem 1rem;
+    right: 25px;
+}
+
 header div,
 main,
 nav ul {
