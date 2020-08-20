@@ -28,7 +28,7 @@
 }
 
 body {
-    height: 100%;
+    min-height: 100vh;
     font: 500 1.6rem Poppins;
     background-color: var(--color-background);
 }

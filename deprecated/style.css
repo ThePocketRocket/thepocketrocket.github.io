@@ -30,13 +30,13 @@ header nav ul a:nth-child(5) {
     padding: 1rem;
     
     font-weight: bold;
-    background-color: #04D361;
+    background-color: #774DD6;
 
     transition: .2s;
 }
 
 header nav ul a:nth-child(5):hover {
-    background-color: #04BF58;
+    background-color: #6842c2;
     border-radius: .4rem 1rem;
     right: 25px;
 }

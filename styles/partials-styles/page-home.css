@@ -20,6 +20,8 @@
     border-radius: 0.4rem 1.6rem;
 
     background-color: var(--color-secondary-dark);
+
+    transform: translateY(-.3rem);
 }
 
 #arrow-up img {
@@ -147,11 +149,13 @@ main div section p a:hover {
     color: var(--color-button-text);
     background-color: var(--color-secondary);
 
-    transition: background .2s;
+    transition: .3s;
 }
 
 .text-container .aside-buttons:hover {
     background-color: var(--color-secondary-dark);
+
+    transform: translateY(-.3rem);
 }
 
 #portfolio {
@@ -163,7 +167,7 @@ main div section p a:hover {
 #perfil {
     width: 15rem;
     height: 15rem;
-    margin: 3rem 3rem 3rem 0;
+    margin: 3rem 3rem 0;
 
     shape-outside: circle();
 
@@ -175,6 +179,62 @@ main div section p a:hover {
     float: left;
 
     transition: .5s;
+}
+
+#projetos-container {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+#projetos-container h3 {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.projetos {
+    min-width: 145px;
+    max-width: 300px;
+    width: 30%;
+
+    margin-top: 2rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-decoration: none;
+
+    border: 1px solid var(--color-primary-lighter);
+    border-radius: .4rem;
+    background-color: var(--color-primary-light);
+
+    transition: .3s;
+}
+
+.projetos:hover{
+    background-color: var(--color-primary-dark);
+    transform: translateY(-.3rem);
+
+}
+
+.projetos h4 {
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 1.6rem;
+
+    color: var(--color-title-in-primary);
+}
+
+.projetos img {
+    width: 12rem;
 }
 
 aside h3 {
@@ -276,6 +336,10 @@ footer ul {
 
     #toggle:checked + .menu{
         display: block;
+    }
+
+    .projetos {
+        width: 90%;
     }
 
     .container-footer {
