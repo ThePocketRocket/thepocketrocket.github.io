@@ -167,7 +167,7 @@ main div section p a:hover {
 #perfil {
     width: 15rem;
     height: 15rem;
-    margin: 3rem 3rem 0;
+    margin: 3rem 3rem 3rem 0;
 
     shape-outside: circle();
 
