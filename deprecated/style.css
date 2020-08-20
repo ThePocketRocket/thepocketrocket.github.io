@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-*:focus {
-    outline: 2px solid mediumturquoise;
-    outline-offset: 10px
-}
-
-html {
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    color: #3a3a3a;
-}
-
 header nav div {
     position: absolute;
     right: 20;
