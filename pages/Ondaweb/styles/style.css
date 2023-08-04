@@ -1,0 +1,100 @@
+body {
+    display: flex;
+
+    justify-content: center;
+
+    background-color: black;    
+}
+
+main {
+    width: 100vw;
+}
+
+header {
+    width: 90vw;
+    position: fixed;
+    padding: 1.8rem 0 1.6rem 0;
+    
+    display: flex;
+    flex-direction: row;
+
+    justify-content: stretch;
+    align-items: center;
+    
+}
+
+nav {
+    width: 60%;
+
+    position: absolute;
+    right: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#logo {
+    height: 40px;
+}
+
+#logo img {
+    height: 2.5rem;
+    user-select: none;
+}
+
+.sections-buttons {
+    padding: 12px;
+    list-style: none;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+    color: white;
+}
+
+.sections-buttons:hover {
+    color: #F58220;
+    transition: .2s;
+}
+
+#first-section {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(/imgs/onda-elem.svg);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+#faith {
+    width: 60vw;
+}
+
+#scroll-down {
+    width: 1.3rem;
+
+    position: absolute;
+    bottom: 5%;
+
+    transition: .2s;
+}
+
+#scroll-down:hover {
+    bottom: 3%;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+#second-section {
+    height: 100vh;
+    background-color: white;
+}
