@@ -1,0 +1,1 @@
+window.alert('Atenção! Este site não tem intuito de se passar pela Ondaweb nem tão pouco violar seus direitos autorais e patrimoniais. O site foi feito meramente como forma de estudo! Caso seja um colaborador da Ondaweb entre em contato comigo a partir dos links no portfólio que eu retirarei a página do ar!')
