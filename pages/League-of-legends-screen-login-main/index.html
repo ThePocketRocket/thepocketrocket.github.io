@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Of Legends - Login Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="client">
+        <section id="container">
+            <div id="login">
+                <img src="imgs/riotgameslogo.png" alt="Riot Games Logo" id="logoRiot">
+    
+                <h1>Fazer Login</h1>
+                <input type="text" name="" id="user" placeholder="NOME DE USUÁRIO" onchange="activeButton()">
+                <input type="password" name="" id="password" placeholder="SENHA" onchange="activeButton()">
+    
+                <div id="buttonsLogin">
+                    <button type="button" id="buttonFacebook"><img src="imgs/facebook.png" alt="Login Facebook"></button>
+                    <button type="button" id="buttonGoogle"><img src="imgs/google.png" alt="Login Google"></button>
+                    <button type="button" id="buttonApple"><img src="imgs/apple.png" alt="Login Apple"></button>
+                    <button type="button" id="buttonXbox"><img src="imgs/xbox.png" alt="Login Xbox"></button>
+                </div>
+
+                <div id="lembrar" onclick="">
+                    <input type="checkbox" name="Lembrar">
+                    <p>Manter login</p>                    
+                </div>
+    
+                <button type="submit" id="continueButton"><img src="imgs/seta-direita.png" alt="Botão Login"></button>
+    
+                <a href="https://recovery.riotgames.com/pt-br?region=BR1" target="_blank">NÃO CONSEGUE INICIAR SEÇÃO?</a>
+                <a href="https://signup.leagueoflegends.com/pt-br/signup/index#/" target="_blank">CRIAR CONTA</a>
+            </div>
+        </section>
+        
+        <aside id="asideImage"></aside>
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>

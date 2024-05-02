@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    font-family: Poppins;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+
+    height: 100vh;
+    background-color: violet;
+}
+
+#client {
+    display: flex;
+    flex-direction: row;
+
+    margin: 20px 80px;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 500px;
+}
+
+#container {
+    display: flex;
+    
+    width: 25%;
+
+    justify-content: center;
+    
+    background-color: white;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    max-width: 400px;
+    height: 100%;
+
+    align-items: center;
+}
+
+#logoRiot {
+    width: 30%;
+    margin: 20% auto;
+}
+
+h1 {
+    user-select: none;
+    margin: 0 auto 5% auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+#login input {    
+    width: 100%;
+    margin: 7px 0;
+    padding: 0.8rem 0 0.4rem 0;
+    
+    border: none;
+    border-radius: 3px;
+
+    font-weight: bold;
+    color: #333333;
+    background-color: #EDEDED;
+}
+
+#login input::-webkit-input-placeholder {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+#lembrar {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3%;
+
+    width: 100%;
+
+    align-items: center;
+}
+
+#lembrar input {
+    width: 12px;
+    height: 12px;
+}
+
+#lembrar p {
+    width: 100px;
+
+    font-size: 10px;
+    font-weight: bold;
+
+    margin-left: 5px;
+}
+
+#login > button {
+    display: flex;
+    position: relative;
+
+    top: 10%;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 3rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 30%;
+    
+    background-color: #EDEDED;
+}
+
+#login > button img{
+    filter: grayscale(100%);
+    width: 30px;
+}
+
+#buttonsLogin {
+    display: flex;
+    width: 100%;
+
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+#buttonsLogin button {
+    display: flex;
+    justify-content: center;
+
+    width: 23%;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 0 1.2em;
+}
+
+#buttonsLogin button:hover {
+    cursor: pointer;
+}
+
+#buttonsLogin button img {
+    padding: 0.3em 0;
+    max-width: 80%;
+}
+
+#buttonFacebook {
+    border-color: #1568d4 !important;
+    background-color: #1877F2;
+}
+
+#buttonGoogle {
+    border-color: #EDEDED !important;
+    background-color: #FFFFFF;
+}
+
+#buttonApple {
+    border-color: #000000 !important;
+    background-color: #000000;
+}
+
+#buttonXbox {
+    border-color: #0e6e0e !important;
+    background-color: #107C10;
+}
+
+#login a {
+    position: relative;
+    top: 20%;
+    
+    font-size: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #9c9c9c;
+
+}
+
+#asideImage {
+    width: 75%;
+    
+    background-image: url(imgs/Login\ Screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
