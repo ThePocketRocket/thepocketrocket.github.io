@@ -4,7 +4,7 @@ main {
     align-items: center;
     
 
-    background: url(../../Assets/Filter2.png) repeat-y, #111213;
+    background: url(../Assets/Filter2.png) repeat-y, #111213;
     background-size: contain;
 }
 
